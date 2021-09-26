@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Genius</title>
+</head>
+<body>
+    <div class="main-game">
+        <div id="game">
+            <p>GENIUS GAME</p>
+        </div>
+        <div class="genius">
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="red"></div>
+            <div class="green"></div>
+        </div>
+    <!--tamanho da tela do jogo-->
+    <div id="divLayout">
+        <canvas id="layout" width="256" height="256"></canvas>
+        <script type="text/javascript" src="js/script.js"></script>
+        <div id="btn-lg">
+        <button type="button" onclick="nextLevel()" class="btn btn-primary btn-lg">Start</button>
+        <button type="button" onclick="stopGame()" class="btn btn-primary btn-lg">Stop</button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
